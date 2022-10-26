@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 django = "*"
 pillow = "*"
+django-froala-editor = "*"
+isort = "*"
+black = "*"
 
 [dev-packages]
 
