@@ -9,6 +9,7 @@ pillow = "*"
 django-froala-editor = "*"
 isort = "*"
 black = "*"
+djangorestframework = "*"
 
 [dev-packages]
 

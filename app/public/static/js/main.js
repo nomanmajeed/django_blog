@@ -24,9 +24,11 @@ function login(){
         },
        
         body : JSON.stringify(data)
-    }).then(result => result.json())
-    .then(response => {
-        
+    }).then(result => {
+        result.json()
+        console.log("here 1: ", response)
+    }).then(response => {
+        console.log("here 2: ", response)
         if(response.status == 200){
             window.location.href = '/'
         }
